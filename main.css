@@ -61,7 +61,7 @@ p:first-child {
     transform: scale(1.5);
   }
   100% {
-    transform: scale();
+    transform: scale(1);
   }
 }
 /* №3 */
