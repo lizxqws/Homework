@@ -1,2 +1,172 @@
+.clients-title, 
+.number {
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
 
-    
+.social-links {
+    width: 206px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ellipse:hover {
+    background-color: #2196F3;
+}
+
+.ellipse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.social_icon {
+    fill: #AFB1B8;
+}
+
+.ellipse:hover .social_icon use{
+    fill: white;
+}
+/* ---------------- */
+
+.block {
+    width: 1170px;
+    height: 184px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_item {
+    fill: #AFB1B8;
+}
+
+.clients-card {
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+}
+
+.clients-card:hover {
+    border: 1px solid #2196F3;
+}
+
+.clients-card:hover .card_item use {
+    fill: #2196F3;
+}
+
+/* ---------------- */
+
+.text-task3 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    background-color: #2F303A;
+}
+
+.social_icon2 {
+    fill: #FFFFFF;
+}
+
+.social-links2 {
+    width: 206px;
+    height: 80px;
+    background-color: #2F303A;
+}
+
+.social-links-block {
+    background-color: #2F303A ;
+    width: 206px;
+    height: 80px;
+    padding-top: 20px;
+}
+
+.ellipse2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.10);
+    border-radius: 50%;
+}
+
+.ellipse2:hover {
+    background-color: #2196F3;
+}
+
+/* ---------------- */
+
+.block_email-and-phone {
+    width: 333px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.email-card {
+    display: flex;
+    align-items: center;
+}
+
+.text-envelope {
+    margin-left: 10px;
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.phone-number {
+    margin-left: 10px;
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.phone-card {
+    display: flex;
+    align-items: center;
+}
+
+.email {
+    fill: #757575;
+}
+
+.phone {
+    fill: #757575;
+}
+
+.email-card:hover .text-envelope,
+.phone-card:hover .phone-number {
+    color: #2196F3;
+}
+
+.email-card:hover .email use,
+.phone-card:hover .phone use {
+    fill: #2196F3;
+}
