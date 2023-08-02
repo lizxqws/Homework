@@ -69,8 +69,8 @@ html{
 }
 
 .section-square {
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
     position: relative;
 }
 
@@ -89,8 +89,8 @@ html{
 
 .square-blue {
     position: absolute;
-    top: 75px;
-    right: 75px;
+    top: 85px;
+    right: 85px;
     z-index: 2;
     background-color: rgb(139, 138, 219);
 }
