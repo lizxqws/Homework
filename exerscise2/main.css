@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+.footer-email { 
+    width: 570px;
+    height: 86px;
+    background: #2F303A;
+    position: relative;
+}
+
+.footer-email-title {
+    color: #FFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+}
+
+#footer-email-field {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: transparent;
+    width: 358px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(33, 150, 243, 0.00);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding-left: 16px;
+}
+
+#footer-email-field::placeholder {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.48px;
+}
+
+.footer-email-btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-left: 12px;
+    border: none;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; 
+    letter-spacing: 0.96px;
+}
+
+.footer-icon-send {
+    margin-left: 10px;
+}
