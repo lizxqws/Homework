@@ -18,16 +18,10 @@
     line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
-    position: absolute;
-    top: 0;
-    left: 0;
     margin-bottom: 20px;
 }
 
 #footer-email-field {
-    position: absolute;
-    bottom: 0;
-    left: 0;
     background: transparent;
     width: 358px;
     height: 50px;
@@ -48,15 +42,12 @@
     letter-spacing: 0.48px;
 }
 
-.footer-email-btn {
+.footer-btn {
     width: 200px;
     height: 50px;
     border-radius: 4px;
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    position: absolute;
-    bottom: 0;
-    right: 0;
     margin-left: 12px;
     border: none;
     display: flex;
@@ -74,4 +65,9 @@
 
 .footer-icon-send {
     margin-left: 10px;
+}
+
+.footer-emailandbtn {
+    display: flex;
+    justify-content: space-between;
 }
