@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+.menu-container {
+    position: fixed;
+    width: 300px;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(160, 160, 160);
+    padding-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    transform: translateX(-85%);
+    transition: transform 2s ease;
+    box-shadow: inset 0 0 8px #000000;
+}
+
+.menu-container:hover {
+    transition: transform 2s ease-in-out;
+    transform: translateX(0%);
+}
+
+.menu-list {
+    width: 200px;
+    height: 400px;
+    padding: 30px 30px;
+    list-style: none;
+}
+
+.rhombus {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(224, 147, 53);
+    border: 2px solid black;
+    transform: rotate(45deg) skew(5deg);
+    margin-right: 10px;
+}
+
+.list-item-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    transition: color 400ms ease-in;
+    font-size: 20px;
+}
+
+.list-item-link:hover {
+    color: rgb(255, 172, 70);
+}
+
+.menu-block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+.menu-text-container {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-text-container {
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    margin-right: 15px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #fff;
+    opacity: 100%;
+    cursor: default;
+    transition: opacity 1.5s ease-out;
+}
+
+.menu-container:hover .menu-text-container{
+    opacity: 0;
+}
