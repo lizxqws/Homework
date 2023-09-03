@@ -1,8 +1,6 @@
 html{
     box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
 }
 .whatwedo-subtitle {
     color: #212121;
@@ -15,7 +13,7 @@ html{
     letter-spacing: 1.08px;
 }
 
-.whatwedo-images {
+.whatwedo-pictures {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,13 +25,13 @@ html{
     height: 386px;
 }
 
-.image {
+.whatwedo-image {
     width: 370px;
     height: 294px;
     position: relative;
 }
 
-.label {
+.whatwedo-label {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -47,7 +45,7 @@ html{
     background: rgba(47, 48, 58, 0.80);
 }
 
-.label>p {
+.whatwedo-label>p {
     margin: 0;
     color: #FFF;
     text-align: center;
