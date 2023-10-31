@@ -1,0 +1,104 @@
+.nav .nav-link {
+  padding: 10px;
+  color: #6c6c6c;
+}
+
+.nav .nav-link:hover {
+  color: #b263ef;
+}
+
+.hero {
+  background-image: url(../assets/banner.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 806px;
+}
+
+.hero-textbox {
+  max-width: 1094px;
+}
+
+.hero-title {
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 128px;
+  line-height: normal;
+}
+
+.hero-btn {
+  color: #6c6c6c;
+  background-color: white;
+  text-align: center;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: 0;
+  border-radius: 50px;
+  width: 310px;
+  height: 100px;
+}
+
+.hero-btn:hover {
+  color: white;
+  background-color: #b263ef;
+}
+
+.new-arrivals {
+  margin-top: 97px;
+}
+
+.primary-title {
+  color: #b263ef;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 80px;
+  line-height: normal;
+}
+
+.new-arrivals-block {
+  max-width: 1040px;
+}
+
+.new-arrivals-card {
+  width: 460px;
+  margin-bottom: 66px;
+  border: none;
+}
+
+.card-text h2,
+.card-text p {
+  color: #6c6c6c;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 32px;
+  line-height: normal;
+}
+
+.card-text p {
+  color: #9a9a9a;
+  font-size: 20px;
+}
+
+.popular-goods {
+  background-color: #f5e8ff;
+  width: 100%;
+  height: 719px;
+}
+
+.popular-goods-card-list {
+  width: 1060px;
+}
+
+.popular-goods-card {
+  width: 286px;
+  height: 380px;
+  border: none;
+}
+
+.popular-goods-card-text {
+  border-right: 1px solid #cfd1d3;
+  border-bottom: 1px solid #cfd1d3;
+  border-left: 1px solid #cfd1d3;
+}
